@@ -1,9 +1,9 @@
 import streamlit as st
 from dotenv import load_dotenv
-from langchain.chains import LLMChain
+# from langchain.chains import LLMChain
 from langchain_core.prompts import PromptTemplate
 from huggingface_hub import InferenceClient
-from langchain_core.output_parsers import StrOutputParser
+# from langchain_core.output_parsers import StrOutputParser
 import json
 import os
 
